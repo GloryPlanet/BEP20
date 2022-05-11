@@ -11,6 +11,6 @@ contract Token is BEP20, BEP20Detailed {
     *  铸币数量
     */
     constructor () public BEP20Detailed("Glory Planet", "Glory", 6) {
-        _mint(msg.sender, 10000000000 * (10 ** uint256(decimals())));
+        _mint(msg.sender, 1000000000 * (10 ** uint256(decimals())));
     }
 }
